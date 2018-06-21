@@ -1,0 +1,42 @@
+.lt_content .nav_left {
+  width: 90px;
+  float: left;
+  height: 100%;
+  position: relative;
+}
+.lt_content .nav_left a {
+  display: block;
+  height: 50px;
+  border-right: 1px solid red;
+  border-bottom: 1px solid red;
+  background-color: pink;
+  text-align: center;
+  line-height: 50px;
+}
+.lt_content .nav_left li.now a {
+  border-right:none;
+  background-color: #fff;
+}
+.lt_content .category_right {
+  overflow: hidden;
+  height: 100%;
+  position: relative;
+}
+/* .lt_content .category_right li {
+  float: left;
+} */
+.lt_content .category_right a {
+  float: left;
+  display: block;
+  width: 33.33%;
+  text-align: center;
+}
+.lt_content .category_right  a img {
+  width: 62px;
+  height: 62px;
+  display: block;
+  margin: 0 auto;
+}
+.tips {
+  margin:10px;
+}
